@@ -12,7 +12,7 @@ $dbSettings = new StemSettings();
 $dbSettings->Host = "mysql";
 $dbSettings->Username = "root";
 $dbSettings->Password = "password";
-$dbSettings->Database = "feeds";
+$dbSettings->Database = "app";
 
 // Add a PHP logger
 Log::attachLog( new PhpLog( Log::ERROR_LEVEL ) );
