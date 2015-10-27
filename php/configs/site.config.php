@@ -9,7 +9,7 @@ use Rhubarb\Stem\StemSettings;
 use Rhubarb\Crown\Context;
 
 $dbSettings = new StemSettings();
-$dbSettings->Host = "feedsdb";
+$dbSettings->Host = "mysql";
 $dbSettings->Username = "root";
 $dbSettings->Password = "password";
 $dbSettings->Database = "feeds";
